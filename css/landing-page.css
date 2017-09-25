@@ -184,3 +184,7 @@ p.copyright {
     margin: 15px 0 0;
     color: #FFF;
 }
+
+.version-banner {
+   background-color: #ff7f00;
+}
