@@ -21,8 +21,23 @@ h6 {
     font-weight: 700;
 }
 
+
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
+    background-color: #222;
+    border-color: #ff7f00;
+}
+
+.topnav.navbar {
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.topnav .navbar-nav > li > a {
+  color: #bbb;
+}
+
+.topnav .navbar-nav > li:hover > a {
+  color: white;
 }
 
 .lead {
@@ -35,14 +50,14 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/mark-solarski-183866-1920.jpg) no-repeat center center;
+    background: url(../img/corey-blaz-5003.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 15%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .intro-message > h1 {
@@ -162,7 +177,7 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #444;
+    background-color: #222;
 }
 
 p.copyright {
