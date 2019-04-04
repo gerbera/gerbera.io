@@ -193,3 +193,7 @@ p.copyright {
 .version-banner a {
     color: #333;
 }
+
+img.img-responsive {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3)
+}
